@@ -17,7 +17,6 @@ If you only want to develop the UI (and not any of the server functions), the ea
 1. Start the local app with `npm start`
 1. Go to [face.camp] and if you are not authenticated, complete the login flow to signin with Slack
 1. Open the developer console and paste the following and press Enter:
-
 ```
 ((k)=>copy(`localStorage.setItem('${k}',${JSON.stringify(localStorage.getItem(k))})`))('facecamp-data')
 ```
